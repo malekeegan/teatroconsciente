@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teatro Consciente — Clases</title>
+<meta name="description" content="Niveles y cursos de actuación en Teatro Consciente: inicial, intermedio, avanzado, montaje y laboratorio. Profes y cómo empezar.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.hv1:hover{background:#8f2c1f;color:#F4F1E9}
+
+
+
+  html{scroll-behavior:smooth}
+  body{margin:0;background:#E5E2DA;color:#26221F;font-family:'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  *{box-sizing:border-box}
+  a{color:#B23A2A;text-decoration:none}
+  a:hover{color:#8f2c1f}
+  ::selection{background:#B23A2A;color:#E5E2DA}
+  image-slot{--is-empty-bg:#221d1a}
+    [data-root]{overflow-x:clip}
+  img,image-slot,iframe{max-width:100%}
+  @media (max-width:768px){ .desknav{display:none !important} }
+  @media (max-width:768px){ .r-stack{grid-template-columns:1fr !important} }
+  @media (max-width:768px){ .r-wide{max-width:100% !important} .r-wm{font-size:clamp(90px,30vw,170px) !important;opacity:.055 !important} }
+  @media (max-width:620px){ .r-row{grid-template-columns:34px 1fr !important;row-gap:14px !important} .r-row > :nth-child(3){grid-column:2 !important} }
+  @media (max-width:480px){ .r-3{grid-template-columns:1fr 1fr !important;row-gap:26px !important} }
+  section{padding-block:clamp(28px,3.6vw,52px) !important}
+  section:first-of-type{padding-top:clamp(48px,6vw,88px) !important}
+  div[style*="background:#1B1613"] > section, div[style*="background:#B23A2A"] > section{padding-block:clamp(48px,6vw,88px) !important}
+  .pf-set{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(14px,1.8vw,22px)}
+  @media (max-width:768px){
+    .pf-set{display:flex !important;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-ms-overflow-style:none;padding-bottom:6px;margin-right:calc(-1 * clamp(20px,5vw,80px))}
+    .pf-set > div{flex:0 0 62%;scroll-snap-align:start}
+  }
+  @media (max-width:768px){ .rvd{grid-template-columns:1fr !important} .rvd > div:first-child{width:140px;aspect-ratio:1/1 !important;border-radius:50% !important} }
+  .sec-grid{display:grid;grid-template-columns:clamp(200px,20vw,260px) 1fr;gap:clamp(28px,4vw,64px);align-items:start}
+  .sec-head{position:sticky;top:96px;align-self:start}
+  @media (max-width:768px){ .sec-grid{grid-template-columns:1fr !important;gap:clamp(20px,3vw,28px) !important} .sec-head{position:static !important} }
+  @media (max-width:520px){ .cta-copy{display:none !important} .cta-bar a{flex:1;text-align:center;padding:15px 12px !important} }
+  @media (max-width:640px){ .pf-row{grid-template-columns:1fr !important;gap:18px !important} .pf-row > div:first-child{width:160px} }
+  .rv-quote[data-long="1"]{font-size:clamp(13px,1.7vw,23px) !important;line-height:1.5;max-width:none !important}
+  @media (max-width:640px){ .rv-quote{max-width:none !important;min-height:0 !important} .rv-foot{flex-direction:column !important;align-items:flex-start !important;gap:24px !important} }
+
+
+.nvx-row{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(10px,1vw,16px);align-items:stretch}
+.nvx-card{position:relative;overflow:hidden;background:#B23A2A;color:#F7F2EA;border-radius:16px;padding:clamp(22px,1.9vw,36px);display:flex;flex-direction:column;gap:12px;min-height:clamp(340px,23vw,396px)}
+.nvx-num{position:absolute;right:16px;top:clamp(84px,6.6vw,128px);font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:300;font-size:clamp(70px,5.8vw,120px);line-height:.7;color:rgba(247,242,234,.22);pointer-events:none}
+.nvx-t{position:relative;font-family:'Cormorant Garamond',serif;font-size:clamp(26px,2.5vw,37px);line-height:1.05;padding-right:8px}
+.nvx-p{position:relative;margin:0;font-size:12.5px;line-height:1.72;font-weight:300;color:rgba(247,242,234,.86)}
+/* niveles: siempre 5 en horizontal en desktop */
+@keyframes psealspin{to{transform:rotate(360deg)}}
+.pring{animation:psealspin 24s linear infinite;transform-origin:100px 100px}
+@media (prefers-reduced-motion:reduce){.pring{animation:none}}
+.s{position:relative}
+.rd{background:#B23A2A;color:#F4F1E9}
+.wide{max-width:min(1240px,94vw);margin:0 auto;padding:clamp(44px,5.4vw,86px) clamp(22px,3vw,40px)}
+.ttl{margin:0 0 18px;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(26px,4.2vw,54px);line-height:1.06;letter-spacing:-.012em}
+.ttl.sm{font-size:clamp(22px,3.2vw,38px)}
+.cta2{display:flex;flex-direction:column;gap:10px;align-items:flex-start;margin-top:clamp(16px,2.2vw,28px)}
+.cta2 a{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 26px;border-radius:40px;background:transparent;color:#B23A2A;border:1px solid rgba(178,58,42,.5);font-size:11px;letter-spacing:.16em;text-transform:uppercase;line-height:1.1;min-width:clamp(165px,20vw,230px);transition:background .2s,color .2s,border-color .2s}
+.cta2 a:hover{background:#B23A2A;color:#F4F1E9;border-color:#B23A2A}
+.rd .cta2 a{color:#F4F1E9;border-color:rgba(244,241,233,.5)}
+.rd .cta2 a:hover{background:#F4F1E9;color:#B23A2A;border-color:#F4F1E9}
+.seal{width:clamp(110px,15vw,190px);height:clamp(110px,15vw,190px);flex:none}
+.seal .ring{animation:sealspin 24s linear infinite;transform-origin:100px 100px}
+@keyframes sealspin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.seal .ring{animation:none}}
+.seal text{font-family:'DM Sans',sans-serif;font-size:11.5px;letter-spacing:.14em;fill:currentColor}
+.seal .yr{font-family:'Cormorant Garamond',serif;font-size:56px;letter-spacing:0;fill:currentColor}
+@media (max-width:700px){.cta2 a{width:100%}.seal{width:104px;height:104px}.wide{padding:38px 20px}}
+</style>
+</head>
+<body>
+
+
+<div style="position:relative;overflow-x:clip" data-root="">
+
+<div style="background:#F2F0EB;color:#3a352f;display:flex;align-items:center;justify-content:center;gap:clamp(14px,2.4vw,28px);padding:11px clamp(20px,5vw,40px);font-size:clamp(12px,1.4vw,14px);flex-wrap:wrap;font-family:'DM Sans',sans-serif"><span>Pre inscripciones para el 2027</span><a href="inscripcion.html" style="background:#B23A2A;color:#F4F1E9;padding:10px 22px;border-radius:999px;font-size:11px;letter-spacing:.14em;white-space:nowrap">GUARDÁ TU LUGAR</a></div>
+<div style="position:sticky;top:0;z-index:40;background:#B23A2A;color:#EDE8DF"><button class="tc-burger" aria-label="Abrir menú"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"></path></svg></button>
+  <div style="max-width:min(1560px,96vw);margin:0 auto;display:flex;align-items:center;justify-content:flex-end;padding:18px clamp(20px,5vw,80px)">
+    <div style="display:flex;align-items:center;gap:clamp(16px,3vw,32px)">
+      <div class="desknav" style="display:flex;align-items:center;gap:clamp(16px,2.4vw,30px);font-size:11px;letter-spacing:.2em">
+        <a href="index.html" style="color:rgba(237,232,223,.78)">INICIO</a>
+        <a href="nosotros.html" style="color:rgba(237,232,223,.78)">NOSOTROS</a>
+        <a href="clases.html" aria-current="page" style="color:#EDE8DF;border-bottom:1px solid #EDE8DF;padding-bottom:4px">CLASES</a>
+        <a href="teatro.html" style="color:rgba(237,232,223,.78)">TEATRO</a>
+        <a href="obras.html" style="color:rgba(237,232,223,.78)">PRODUCCIONES</a>
+        <a href="contacto.html" style="color:rgba(237,232,223,.78)">CONTACTO</a><a href="https://www.alternativateatral.com/espacio7916-teatro-consciente" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;border:1px solid rgba(237,232,223,.55);color:#EDE8DF;padding:7px 14px;border-radius:999px;font-size:10.5px;letter-spacing:.14em">ENTRADAS</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tc-menu">
+  <div style="max-width:min(1560px,96vw);margin:0 auto;padding:26px clamp(20px,5vw,80px);display:flex;align-items:center;justify-content:flex-end">
+    <button data-tc-menuclose="" aria-label="Cerrar" style="background:none;border:none;cursor:pointer;color:#E5E2DA;font-size:30px;line-height:1;font-family:'Cormorant Garamond',serif">×</button>
+  </div>
+  <div style="max-width:min(1560px,96vw);margin:0 auto;padding:clamp(24px,6vh,70px) clamp(20px,5vw,80px);display:flex;flex-direction:column;gap:clamp(8px,1.4vh,18px)">
+    <a href="index.html" style="display:flex;align-items:baseline;gap:20px;color:#E5E2DA"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:#C2A15A">00</span><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(38px,7vw,64px);font-weight:300">inicio</span></a>
+    <a href="nosotros.html" style="display:flex;align-items:baseline;gap:20px;color:#E5E2DA"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:#C2A15A">01</span><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(38px,7vw,64px);font-weight:300">nosotros</span></a>
+    <a href="clases.html" style="display:flex;align-items:baseline;gap:20px;color:#E5E2DA"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:#C2A15A">02</span><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(38px,7vw,64px);font-weight:300">clases</span></a>
+    <a href="teatro.html" style="display:flex;align-items:baseline;gap:20px;color:#E5E2DA"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:#C2A15A">03</span><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(38px,7vw,64px);font-weight:300">teatro</span></a>
+    <a href="obras.html" style="display:flex;align-items:baseline;gap:20px;color:#E5E2DA"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:#C2A15A">04</span><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(38px,7vw,64px);font-weight:300">producciones</span></a>
+    <a href="contacto.html" style="display:flex;align-items:baseline;gap:20px;color:#E5E2DA"><span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:#C2A15A">05</span><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(38px,7vw,64px);font-weight:300">contacto</span></a>
+  </div>
+</div>
+
+<!-- HEADER -->
+<section style="max-width:min(1560px,96vw);margin:0 auto;padding:clamp(44px,6vw,86px) clamp(20px,5vw,80px) clamp(30px,4vw,52px)">
+  <div data-reveal="" style="transition:opacity .8s ease,transform .8s ease">
+    <div style="display:inline-flex;align-items:center;gap:12px;margin-bottom:clamp(20px,3vw,30px)"><span style="width:28px;height:1px;background:#B23A2A"></span><span style="font-size:11px;letter-spacing:.28em;color:#B23A2A">CLASES</span></div>
+    <h1 style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(44px,8vw,110px);line-height:.98;letter-spacing:-.015em;margin:0">niveles y <span style="font-style:italic">cursos</span></h1>
+  </div>
+</section>
+
+<!-- NIVELES -->
+<section id="niveles" style="max-width:min(1560px,96vw);margin:0 auto;padding:clamp(30px,4vw,56px) clamp(20px,5vw,80px)">
+  <div data-reveal="" style="transition:opacity .8s ease,transform .8s ease">
+    <div class="nvx-row">
+      <div class="nvx-card"><span class="nvx-num" aria-hidden="true">01</span><div class="nvx-t" style="height: 54px">Inicial</div><p class="nvx-p">Primer contacto con la escena. Registro corporal, respiración, impulso y juego. Para quienes empiezan de cero.</p></div>
+      <div class="nvx-card"><span class="nvx-num" aria-hidden="true">02</span><div class="nvx-t" style="height: 52px">Intermedio</div><p class="nvx-p">Trabajo de escena y texto. Se incorpora la vía de las imágenes resonantes y la composición.</p></div>
+      <div class="nvx-card"><span class="nvx-num" aria-hidden="true">03</span><div class="nvx-t" style="height: 50px">Avanzado</div><p class="nvx-p">Escena larga, texto y composición. Profundización del lenguaje propio sobre el escenario.</p></div>
+      <div class="nvx-card"><span class="nvx-num" aria-hidden="true">04</span><div class="nvx-t" style="height: 43px">Montaje</div><p class="nvx-p">Puesta de una obra completa, del ensayo al estreno. Proceso de montaje con temporada abierta al público.</p></div>
+      <div class="nvx-card"><span class="nvx-num" aria-hidden="true">05</span><div class="nvx-t" style="height: 42px">Laboratorio</div><p class="nvx-p">Investigación y creación propia. Un laboratorio escénico para actores en proceso profesional.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROFES -->
+<section id="profes" style="max-width:min(1560px,96vw);margin:0 auto;padding:clamp(40px,5vw,72px) clamp(20px,5vw,80px)">
+  <div class="sec-grid">
+  <div class="sec-head" data-reveal="" style="transition:opacity .8s ease,transform .8s ease">
+    <div style="display:inline-flex;align-items:center;gap:12px;margin-bottom:clamp(14px,1.8vw,20px)"><span style="width:28px;height:1px;background:#B23A2A"></span><span style="font-size:11px;letter-spacing:.28em;color:#B23A2A">PROFES</span></div>
+    <div style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(30px,3.6vw,46px);line-height:1.02">quién <span style="font-style:italic">da clase</span></div>
+  </div>
+  <div data-reveal="" style="transition:opacity .8s ease .08s,transform .8s ease .08s">
+    <div class="pf-set">
+      <div><div style="aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:#221d1a"><img src="img/ezequiel-sagasti.jpg" alt="Ezequiel Sagasti" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="font-family: 'Cormorant Garamond',serif; font-size: 24px; line-height: 1.15; margin-top: 12px">Ezequiel Sagasti</div><div style="font-size:9.5px;letter-spacing:.18em;color:#8f8a82;margin-top:5px">DIRECTOR Y DOCENTE</div></div>
+      <div><div style="aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:#221d1a"><img src="img/gonzalo-gravano.jpg" alt="Gonzalo Gravano" style="width:100%;height:100%;object-fit:cover;display:block;"></div><div style="font-family: 'Cormorant Garamond',serif; font-size: 24px; line-height: 1.15; margin-top: 12px">Gonza Saludjián</div><div style="font-size:9.5px;letter-spacing:.18em;color:#8f8a82;margin-top:5px"><span style="letter-spacing: 1.71px">DOCENTE</span></div></div>
+      <div><div style="aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:#221d1a"><img src="img/clases.webp" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; object-position: 90.1148% 100%; object-view-box: inset(12.059% 1.7734% 0% 16.167%)"></div><div style="font-family:'Cormorant Garamond',serif;font-size:clamp(20px,2.2vw,26px);line-height:1.15;margin-top:12px"><div style="font-size: 24px">Keisy Barrera</div></div><div style="font-size:9.5px;letter-spacing:.18em;color:#8f8a82;margin-top:5px"><span style="letter-spacing: 1.71px">DOCENTE</span></div></div>
+      <div><div style="aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:#221d1a"><img src="img/clases.jpg" alt="" style="width:100%;height:100%;object-fit:cover;display:block"></div><div style="font-family: 'Cormorant Garamond',serif; font-size: 24px; line-height: 1.15; margin-top: 12px">Gonza Gravano</div><div style="font-size:9.5px;letter-spacing:.18em;color:#8f8a82;margin-top:5px"><span style="letter-spacing: 1.71px">DOCENTE</span></div></div>
+      <div><div style="aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:#221d1a"><img src="img/clases-2.webp" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; object-position: 43.8093% 100%; object-view-box: inset(1.3907% 17.492% 0% 13.6377%)"></div><div style="font-family: 'Cormorant Garamond',serif; font-size: 24px; line-height: 1.15; margin-top: 12px">Lucía García</div><div style="font-size:9.5px;letter-spacing:.18em;color:#8f8a82;margin-top:5px"><span style="letter-spacing: 1.71px">DOCENTE</span></div></div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- CÓMO EMPEZAR -->
+<section style="max-width:min(1560px,96vw);margin:0 auto;padding:0 clamp(20px,5vw,80px) clamp(30px,4vw,56px)">
+  <div class="sec-grid">
+  <div class="sec-head" data-reveal="" style="transition:opacity .8s ease,transform .8s ease">
+    <div style="display:inline-flex;align-items:center;gap:12px;margin-bottom:clamp(14px,1.8vw,20px)"><span style="width:28px;height:1px;background:#B23A2A"></span><span style="font-size:11px;letter-spacing:.28em;color:#B23A2A">EMPEZAR</span></div>
+    <h2 style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(30px,3.6vw,46px);line-height:1.02;margin:0 0 clamp(12px,1.6vw,18px)">cómo <span style="font-style:italic">empezar</span></h2>
+    <p style="margin:0;font-size:clamp(13px,1.4vw,15px);line-height:1.8;font-weight:300;color:#4a463f">Empezar es más simple de lo que pensás. Son tres pasos:</p>
+  </div>
+  <div data-reveal="" style="transition:opacity .8s ease .06s,transform .8s ease .06s;display:flex;flex-direction:column;gap:clamp(24px,3vw,34px);position:relative;padding-left:clamp(46px,5vw,58px)">
+    <div style="position:absolute;left:clamp(14px,1.6vw,18px);top:10px;bottom:10px;width:1px;background:rgba(178,58,42,.35)"></div>
+    <div style="position:relative">
+      <span style="position:absolute;left:clamp(-58px,-5vw,-46px);top:0;width:clamp(29px,3.2vw,37px);height:clamp(29px,3.2vw,37px);border-radius:50%;background:#B23A2A;color:#F4F1E9;display:flex;align-items:center;justify-content:center;font-size:clamp(11px,1.2vw,13px)">01</span>
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(24px,2.6vw,32px);margin-bottom:6px">Inscribite</div>
+      <p style="margin:0;font-size:clamp(13px,1.45vw,16px);line-height:1.8;font-weight:300;color:#4a463f;max-width:52ch">Completá el <a href="inscripcion.html" style="color:#B23A2A;border-bottom:1px solid #B23A2A">formulario</a> con tus datos.</p>
+    </div>
+    <div style="position:relative">
+      <span style="position:absolute;left:clamp(-58px,-5vw,-46px);top:0;width:clamp(29px,3.2vw,37px);height:clamp(29px,3.2vw,37px);border-radius:50%;background:#B23A2A;color:#F4F1E9;display:flex;align-items:center;justify-content:center;font-size:clamp(11px,1.2vw,13px)">02</span>
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(24px,2.6vw,32px);margin-bottom:6px">Nos conocemos</div>
+      <p style="margin:0;font-size:clamp(13px,1.45vw,16px);line-height:1.8;font-weight:300;color:#4a463f;max-width:52ch">Charlamos en una entrevista breve para ver qué nivel te queda mejor.</p>
+    </div>
+    <div style="position:relative">
+      <span style="position:absolute;left:clamp(-58px,-5vw,-46px);top:0;width:clamp(29px,3.2vw,37px);height:clamp(29px,3.2vw,37px);border-radius:50%;background:#B23A2A;color:#F4F1E9;display:flex;align-items:center;justify-content:center;font-size:clamp(11px,1.2vw,13px)">03</span>
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(24px,2.6vw,32px);margin-bottom:6px">Te sumás a TC</div>
+      <p style="margin:0;font-size:clamp(13px,1.45vw,16px);line-height:1.8;font-weight:300;color:#4a463f;max-width:52ch">Y el resto… no te vamos a mentir. Es un viaje de ida.</p>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- RESEÑAS -->
+<section id="resenas" style="max-width:min(1560px,96vw);margin:0 auto;padding:clamp(30px,4vw,56px) clamp(20px,5vw,80px)">
+  <div style="display:inline-flex;align-items:center;gap:12px;margin-bottom:clamp(24px,3vw,40px)"><span style="width:28px;height:1px;background:#B23A2A"></span><span style="font-size:11px;letter-spacing:.28em;color:#B23A2A">LO QUE DICEN</span></div>
+  <div data-reveal="" style="transition:opacity .8s ease,transform .8s ease">
+    <div class="rvd" style="background:#B23A2A;color:#F7F2EA;border-radius:14px;padding:clamp(26px,3.4vw,48px);display:grid;grid-template-columns:clamp(180px,20vw,240px) 1fr;gap:clamp(24px,3vw,44px);align-items:center">
+      <div style="aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:#221d1a"><img id="rv-foto" src="img/resena-meli-martin.png" alt="Meli Martin" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+      <div>
+        <p id="rv-quote" style="margin:0 0 18px;font-family:'DM Sans',sans-serif;font-weight:300;font-size:clamp(15px,1.5vw,19px);line-height:1.65;text-wrap:pretty">“Estudiar en TC fue literal un antes y después. Me encanta cómo laburan de manera tan profunda en el desarrollo de la confianza (en uno mismo y en el proceso), la imaginación, el entrenamiento de la mente, el amor a la profesión, la pasión. Tienen un criterio que se encuentra en pocos lugares y que busca sacar a la luz lo verdadero. Los profes son profesionales y cálidos, y todos los años me tocaron grupos de gente hermosa a los que voy a estar siempre agradecida porque me enseñaron una bocha.”</p>
+        <div style="display:flex;align-items:center;gap:12px"><span style="width:24px;height:1px;background:rgba(247,242,234,.7)"></span><span id="rv-label" style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(19px,1.8vw,24px);letter-spacing:.04em;color:rgba(247,242,234,.92)">MELI MARTIN</span></div>
+      </div>
+    </div>
+    <div id="rv-pills" style="display:flex;gap:clamp(10px,1.4vw,14px);margin-top:20px">
+      <div data-tc-review="0" style="width:clamp(48px,4.6vw,58px);height:clamp(48px,4.6vw,58px);border-radius:50%;overflow:hidden;cursor:pointer;opacity:1;outline:1px solid #B23A2A;outline-offset:3px;transition:opacity .3s ease"><img src="img/resena-meli-martin.png" alt="Meli Martin" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:50%"></div>
+        <div data-tc-review="1" style="width:clamp(48px,4.6vw,58px);height:clamp(48px,4.6vw,58px);border-radius:50%;overflow:hidden;cursor:pointer;opacity:.42;outline:1px solid transparent;outline-offset:3px;transition:opacity .3s ease"><img src="img/resena-vero-viana.png" alt="Vero Viana" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:50%"></div>
+        <div data-tc-review="2" style="width:clamp(48px,4.6vw,58px);height:clamp(48px,4.6vw,58px);border-radius:50%;overflow:hidden;cursor:pointer;opacity:.42;outline:1px solid transparent;outline-offset:3px;transition:opacity .3s ease"><img src="img/resena-agustin-cuba-cervigni.png" alt="Agustín "Cuba" Cervigni" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:50%"></div>
+        <div data-tc-review="3" style="width:clamp(48px,4.6vw,58px);height:clamp(48px,4.6vw,58px);border-radius:50%;overflow:hidden;cursor:pointer;opacity:.42;outline:1px solid transparent;outline-offset:3px;transition:opacity .3s ease"><img src="img/resena-jime-regue.png" alt="Jime Regue" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:50%"></div>
+        <div data-tc-review="4" style="width:clamp(48px,4.6vw,58px);height:clamp(48px,4.6vw,58px);border-radius:50%;overflow:hidden;cursor:pointer;opacity:.42;outline:1px solid transparent;outline-offset:3px;transition:opacity .3s ease"><img src="img/resena-bahia-trungadi.jpg" alt="Bahía Trungadi" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:50%"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PREINSCRIPCIÓN -->
+<section data-reveal="" style="transition: opacity .75s ease, transform .75s ease; position: relative; z-index: 2" class="s rd"><div class="wide" style="padding-top:clamp(32px,3.6vw,52px);padding-bottom:clamp(32px,3.6vw,52px);position:relative;min-height:clamp(240px,26vw,300px)">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:clamp(20px,3vw,44px);flex-wrap:wrap">
+        <div><h2 class="ttl sm" style="color: #F4F1E9; margin-bottom: 20px; font-weight: 400; font-size: 50px">guardá <i>tu lugar&nbsp;<br></i>para el año que viene</h2>
+          <div class="cta2"><a href="inscripcion.html">Preinscripción 2027 →</a></div></div>
+        <div style="position: absolute; top: -53px; right: 38px; z-index: 2; transform: rotate(-8deg); width: 400px; height: 383px"><svg class="seal" viewBox="0 0 200 200" style="color: #F4F1E9; display: block; width: 394px; height: 395px"><defs><path id="sl1" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"></path></defs><g class="ring"><text style="letter-spacing:.2em"><textPath href="#sl1">PREINSCRIPCIONES · GUARDÁ TU LUGAR · RESERVA TU CUPO ·</textPath></text></g><text class="yr" x="100" y="100" text-anchor="middle" dominant-baseline="central">2027</text></svg></div>
+      </div></div></section>
+
+<div style="background:#1B1613;color:#EDE8DF;border-top:1px solid rgba(237,232,223,.12)">
+  <div style="max-width:min(1560px,96vw);margin:0 auto;padding:clamp(28px,4vw,44px) clamp(20px,5vw,80px);display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap">
+    <a href="index.html" style="font-size:11px;letter-spacing:.2em;color:#E5E2DA">← VOLVER AL INICIO</a>
+  </div>
+</div>
+
+</div>
+
+
+<script id="tc-reviews-data" type="application/json">[{"name": "Meli Martin", "src": "img/resena-meli-martin.png", "quote": "Estudiar en TC fue literal un antes y después. Me encanta cómo laburan de manera tan profunda en el desarrollo de la confianza (en uno mismo y en el proceso), la imaginación, el entrenamiento de la mente, el amor a la profesión, la pasión. Tienen un criterio que se encuentra en pocos lugares y que busca sacar a la luz lo verdadero. Los profes son profesionales y cálidos, y todos los años me tocaron grupos de gente hermosa a los que voy a estar siempre agradecida porque me enseñaron una bocha."}, {"name": "Vero Viana", "src": "img/resena-vero-viana.png", "quote": "Ser parte de esta escuela me llena de orgullo. Formarme como actriz rodeada de una energía hermosa, en un espacio donde la calidez está a la orden del día. Aprendemos, lloramos, reímos, nos enojamos, nos acompañamos y conquistamos vínculos. Ezequiel, a quien admiro profundamente, me enseñó a descubrir mi interior, a expresar mis emociones y a transmitirlas eficientemente. Todos los objetivos que me propuse tienen en TC una herramienta para cumplirse. Feliz y agradecida de ser parte de un mismo camino y de que sean mi guía en esta carrera mágica que es la actuación. Namasté."}, {"name": "Agustín \"Cuba\" Cervigni", "src": "img/resena-agustin-cuba-cervigni.png", "quote": "En Teatro Consciente no solo encontré un espacio de formación, sino que también encontré un hogar. Un lugar en el que me siento seguro para explorar y crecer a nivel artístico y profesional. Acompañado siempre de personas maravillosas, tanto del lado docente como del lado de los alumnos, que en cada momento me hicieron sentir como en familia. La técnica, la imaginación, la reflexión y la filosofía son pilares fundamentales de las clases, al igual que la calidez humana que tanto caracteriza a este método de enseñanza. Siempre recomendé este espacio y lo seguiré haciendo."}, {"name": "Jime Regue", "src": "img/resena-jime-regue.png", "quote": "En TC encontré vínculos saludables y muy amorosos, pero lo que transforma en artista es Ezequiel, que con su mezcla de ternura y técnica hace del aprendizaje un bello camino. Aprendí a actuar… aunque aún me falta mucho, pero lo más potente es el camino de ser artista, transformarse para transformar. ¡Recomiendo este espacio donde la metodología y el amor se encuentran!"}, {"name": "Bahía Trungadi", "src": "img/resena-bahia-trungadi.jpg", "quote": "TC es un espacio único, sin dudas. Tiene una energía hermosa que se contagia desde el momento en el que entrás. Siempre me sentí cómoda para explorar todas mis versiones, soltarme y recrearme clase a clase. Se genera un ambiente de confianza en el que los alumnos y los docentes abrimos nuestros corazones para conectarnos unos con otros. Es mucho más de lo que imaginé."}]</script>
+<script src="js/site.js" defer></script>
+</body>
+</html>
